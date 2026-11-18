@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz sobre Rep. Romana</title>
+
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <main class="quiz-container">
+        <header class="quiz-header">
+            
+            <span class="tag">República Romana (509 a.C. a 27 a.C.)</span>
+
+                <div class="imagem">
+                    <img src="louro.png" alt="Coroa de louro" height="80px" width="130px">
+                </div>
+            <h1>Contexto Geral e Triunviratos</h1>
+            
+            <div class="texto-header">
+                <p>
+                    Teste seus conhecimentos sobre esse importante período para a história da Roma Antiga! 
+                </p>
+            </div>
+
+        </header>
+
+        <form id="quiz-form">
+
+            <section class="question">
+                <h2>1. (UEG - Adaptada) O Primeiro Triunvirato foi um sinal da crise vivida pela República Romana. Três líderes — Pompeu, Júlio César e Crasso — concentraram grande poder político e militar. O fim dessa aliança, marcado pela morte de Crasso (em 53 a.C.) e pela disputa entre os sobreviventes, levou imediatamente a: </h2>
+
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    O aumento da rivalidade entre César e Pompeu, resultando em uma guerra civil.
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    A criação de um regime democrático com ampliação do voto popular.
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    A paz duradoura no Mediterrâneo sob controle exclusivo do Senado.
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>2. (OSEC - Adaptada) Quanto à história de Roma, pode-se considerar que:</h2>
+
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    Roma conheceu apenas dois regimes políticos: a república e o império.
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    A passagem da república para o império, Roma deixou de ser uma democracia e transformou-se numa oligarquia.
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    Os irmãos Tibério e Caio Graco foram dois tribunos da plebe que lutaram pela redistribuição das terras do Estado (ager publicus) entre todos os cidadãos romanos.
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>3.(UNESP - Adaptada)   Durante a República Romana, em 60 a.C., foi formado o Primeiro Triunvirato, uma aliança política entre três importantes líderes romanos.
+Quem eram os integrantes do Primeiro Triunvirato?</h2>
+
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    Júlio César, Pompeu e Crasso.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    Lépido, Cássio e Pompeu.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    Pompeu, Crasso e Brutus.
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>4. (FUVEST - Adaptada)
+               Após o assassinato de Júlio César, em 44 a.C., três líderes romanos formaram o Segundo Triunvirato para disputar o controle de Roma.
+               Qual foi uma das principais consequências dessa aliança?</h2>
+
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    O fim definitivo do Império Romano.
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    O fortalecimento da democracia romana.
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    Uma disputa pelo poder que terminou com a ascensão de Otávio.
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>5. (Mackenzie - Adaptada)
+
+                 Sobre a transição da República para o Império na Roma Antiga, é correto afirmar que: </h2>
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                     A concentração de poderes no imperador agradava aos patrícios apenas por sufocar revoltas de escravos.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="b">
+                   A criação do império através do Primeiro e Segundo Triunvirato expressou o triunfo dos generais para conter a crise social do fim da República.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="c">
+                   A base do império sustentou-se no poder dos camponeses nas assembleias democráticas.
+                </label>
+            </section>
+
+            <div class="actions">
+
+                <button type="submit">
+                    Finalizar quiz
+                </button>
+
+                <button type="reset" class="secondary">
+                    Limpar respostas
+                </button>
+
+            </div>
+
+        </form>
+
+        <section
+            id="result"
+            class="result"
+            aria-live="polite"
+            hidden>
+        </section>
+
+    </main>
+
+<script src="forms.js" defer></script>
+
+</body>
+</html>
