@@ -7,7 +7,7 @@ const answerKey = {
 
     q1: "a",
     q2: "c",
-    q3: "a",
+    q3: "d",
     q4: "c",
     q5: "b"
 
