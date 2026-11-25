@@ -48,7 +48,6 @@ body {
 
 h1 {
     margin: 10px 0;
-
     font-size: clamp(25px, 5vw, 36px);
 }
 
